@@ -9,7 +9,6 @@ setup(
         'bootstrap3_datetime': ['static/bootstrap3_datetime/css/*.css',
                                 'static/bootstrap3_datetime/js/*.js',
                                 'static/bootstrap3_datetime/js/locales/*.js', ]},
-    include_package_data=True,
     version=__version__,
     description='Bootstrap3 compatible datetimepicker for Django 2.x projects.',
     long_description=open('README.rst').read(),

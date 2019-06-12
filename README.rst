@@ -1,4 +1,4 @@
-django-bootstrap3-datetimepicker
+django2-bootstrap3-datetimepicker
 ================================
 
 This project was originally a fork of
