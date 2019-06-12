@@ -1,21 +1,24 @@
 django-bootstrap3-datetimepicker
 ================================
 
-This package uses `Bootstrap v3 datetimepicker widget version
-4 <https://github.com/Eonasdan/bootstrap-datetimepicker>`__.
-
 This project was originally a fork of
-https://github.com/tutorcruncher/django-bootstrap3-datetimepicker, it
-now has the following breaking changes:
+https://github.com/tutorcruncher/django-bootstrap3-datetimepicker :
+The js/css files are now included again into the project
 
--  js/css files are now included againin the project
+This package uses Bootstrap v3 datetimepicker widget version 2 provided by the following project:
+ https://github.com/Eonasdan/bootstrap-datetimepicker
+
+The correct formatting options for dates can be found here:
+ http://momentjs.com/docs/
+
+It works only with Bootstrap3.
 
 Install
 -------
 
-::
+-  Run ``pip install django-bootstrap3-datetimepicker``
+-  Add ``'bootstrap3_datetime'`` to your ``INSTALLED_APPS``
 
-    pip install django2-bootstrap3-datetimepicker
 
 Example
 -------

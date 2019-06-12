@@ -1,20 +1,19 @@
 import sys
 from setuptools import setup
 
-long_description = ''
-if 'upload' in sys.argv or 'register' in sys.argv:
-    import pypandoc
-    long_description = pypandoc.convert('README.md', 'rst')
-
 VERSION = '3.0.0'
 
 setup(
     name='django2-bootstrap3-datetimepicker',
     packages=['bootstrap3_datetime'],
+    package_data={
+        'bootstrap3_datetime': ['static/bootstrap3_datetime/css/*.css',
+                                'static/bootstrap3_datetime/js/*.js',
+                                'static/bootstrap3_datetime/js/locales/*.js', ]},
     include_package_data=True,
     version=VERSION,
     description='Bootstrap3 compatible datetimepicker for Django 2.x projects.',
-    long_description=long_description,
+    long_description=open('README.rst').read(),
     author='Nakahara Kunihiko/Samuel Colvin/Eric Lapouyade',
     author_email='elapouya@gmail.com',
     url='https://github.com/elapouya/django-bootstrap3-datetimepicker',
