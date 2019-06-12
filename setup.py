@@ -1,7 +1,7 @@
 import sys
 from setuptools import setup
 
-VERSION = '3.0.0'
+VERSION = '3.0.1'
 
 setup(
     name='django2-bootstrap3-datetimepicker',

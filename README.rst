@@ -16,7 +16,7 @@ It works only with Bootstrap3.
 Install
 -------
 
--  Run ``pip install django-bootstrap3-datetimepicker``
+-  Run ``pip install django2-bootstrap3-datetimepicker``
 -  Add ``'bootstrap3_datetime'`` to your ``INSTALLED_APPS``
 
 
