@@ -1,7 +1,6 @@
 import sys
 from setuptools import setup
-
-VERSION = '3.0.1'
+from bootstrap3_datetime import __version__
 
 setup(
     name='django2-bootstrap3-datetimepicker',
@@ -11,7 +10,7 @@ setup(
                                 'static/bootstrap3_datetime/js/*.js',
                                 'static/bootstrap3_datetime/js/locales/*.js', ]},
     include_package_data=True,
-    version=VERSION,
+    version=__version__,
     description='Bootstrap3 compatible datetimepicker for Django 2.x projects.',
     long_description=open('README.rst').read(),
     author='Nakahara Kunihiko/Samuel Colvin/Eric Lapouyade',
