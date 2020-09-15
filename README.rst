@@ -1,5 +1,5 @@
 django2-bootstrap3-datetimepicker
-================================
+=================================
 
 This project was originally a fork of
 https://github.com/tutorcruncher/django-bootstrap3-datetimepicker :
